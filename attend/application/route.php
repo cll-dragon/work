@@ -23,3 +23,4 @@
 use think\Route;
 Route::rule('meeting','index/Meeting/index');
 Route::rule('visit','index/Visitpeople/index');
+Route::rule('attend','index/attend/index');
