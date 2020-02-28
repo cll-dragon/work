@@ -1,0 +1,4180 @@
+---------------------------------------------------------------
+[ 2019-12-03T08:48:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitpeople/index.html
+[运行时间：0.359501s] [吞吐率：2.78req/s] [内存消耗：853.85kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:48:45+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.040050s] [吞吐率：24.97req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:48:49+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.037505s] [吞吐率：26.66req/s] [内存消耗：1,699.04kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'carNumber' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:48:53+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017564s] [吞吐率：56.93req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.020620s] [吞吐率：48.50req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018447s] [吞吐率：54.21req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:11+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018349s] [吞吐率：54.50req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:11+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017951s] [吞吐率：55.71req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:11+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015967s] [吞吐率：62.63req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:12+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.022661s] [吞吐率：44.13req/s] [内存消耗：1,699.04kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'carNumber' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:24+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017769s] [吞吐率：56.28req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:25+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017511s] [吞吐率：57.11req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:25+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017494s] [吞吐率：57.16req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018704s] [吞吐率：53.46req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:26+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.021262s] [吞吐率：47.03req/s] [内存消耗：1,699.04kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'carNumber' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:39+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018993s] [吞吐率：52.65req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:40+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017678s] [吞吐率：56.57req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017256s] [吞吐率：57.95req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017233s] [吞吐率：58.03req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:49:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017472s] [吞吐率：57.23req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:47+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.027700s] [吞吐率：36.10req/s] [内存消耗：1,109.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:47+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017069s] [吞吐率：58.59req/s] [内存消耗：1,109.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:48+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.021208s] [吞吐率：47.15req/s] [内存消耗：1,699.05kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'carNumber' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:49+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018977s] [吞吐率：52.70req/s] [内存消耗：1,108.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:50+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016793s] [吞吐率：59.55req/s] [内存消耗：1,109.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:50+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017024s] [吞吐率：58.74req/s] [内存消耗：1,109.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T08:50:51+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016709s] [吞吐率：59.85req/s] [内存消耗：1,109.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:08+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.021412s] [吞吐率：46.70req/s] [内存消耗：1,224.09kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:08+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015139s] [吞吐率：66.05req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016063s] [吞吐率：62.25req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015014s] [吞吐率：66.60req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016749s] [吞吐率：59.71req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015186s] [吞吐率：65.85req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015470s] [吞吐率：64.64req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016751s] [吞吐率：59.70req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017775s] [吞吐率：56.26req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:05:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015946s] [吞吐率：62.71req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:19+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.025763s] [吞吐率：38.82req/s] [内存消耗：1,224.09kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:33+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.025997s] [吞吐率：38.47req/s] [内存消耗：1,224.09kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:34+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016628s] [吞吐率：60.14req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:34+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016666s] [吞吐率：60.00req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:34+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015593s] [吞吐率：64.13req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:35+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018664s] [吞吐率：53.58req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:06:35+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017739s] [吞吐率：56.37req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:08:00+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.170392s] [吞吐率：5.87req/s] [内存消耗：1,725.95kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028180s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.093933s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000478s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.001546s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:12:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.021452s] [吞吐率：46.62req/s] [内存消耗：1,223.64kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:12:55+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018020s] [吞吐率：55.49req/s] [内存消耗：1,109.29kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:12:56+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.034731s] [吞吐率：28.79req/s] [内存消耗：1,726.33kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009827s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001344s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:23:44+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.019545s] [吞吐率：51.16req/s] [内存消耗：1,108.89kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:23:44+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017057s] [吞吐率：58.63req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:23:46+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.043275s] [吞吐率：23.11req/s] [内存消耗：1,726.38kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019001s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.003253s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000391s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:24:02+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.028432s] [吞吐率：35.17req/s] [内存消耗：1,108.89kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:03+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015906s] [吞吐率：62.87req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:04+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016266s] [吞吐率：61.48req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:04+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016344s] [吞吐率：61.18req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:04+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016653s] [吞吐率：60.05req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:05+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016728s] [吞吐率：59.78req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:05+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016536s] [吞吐率：60.47req/s] [内存消耗：1,109.34kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:45+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.046428s] [吞吐率：21.54req/s] [内存消耗：1,724.98kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘888888',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010519s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘888888'; [ RunTime:0.001065s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘888888'; [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘888888' and flag=1 order by leave_date desc; [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:24:47+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018560s] [吞吐率：53.88req/s] [内存消耗：1,108.83kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:51+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017313s] [吞吐率：57.76req/s] [内存消耗：1,109.28kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:24:53+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.036100s] [吞吐率：27.70req/s] [内存消耗：1,726.32kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012121s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001194s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.002359s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:24:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016939s] [吞吐率：59.04req/s] [内存消耗：1,108.83kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017175s] [吞吐率：58.22req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:34+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.033779s] [吞吐率：29.60req/s] [内存消耗：1,726.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011265s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001137s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:27:35+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.019767s] [吞吐率：50.59req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016929s] [吞吐率：59.07req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:40+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.035251s] [吞吐率：28.37req/s] [内存消耗：1,726.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011055s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001133s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000376s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:27:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017159s] [吞吐率：58.28req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:42+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.043982s] [吞吐率：22.74req/s] [内存消耗：1,726.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011157s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001096s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000376s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:27:43+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017348s] [吞吐率：57.64req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:43+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.032268s] [吞吐率：30.99req/s] [内存消耗：1,726.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010397s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001126s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000411s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:27:44+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017304s] [吞吐率：57.79req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:27:45+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016036s] [吞吐率：62.36req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:43:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018821s] [吞吐率：53.13req/s] [内存消耗：1,109.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:43:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016357s] [吞吐率：61.14req/s] [内存消耗：1,109.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:43:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016173s] [吞吐率：61.83req/s] [内存消耗：1,109.80kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:43:20+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.031725s] [吞吐率：31.52req/s] [内存消耗：1,726.06kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010124s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001157s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000402s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:46:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.023783s] [吞吐率：42.05req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015341s] [吞吐率：65.18req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015744s] [吞吐率：63.52req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016111s] [吞吐率：62.07req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016129s] [吞吐率：62.00req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:40+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.033063s] [吞吐率：30.25req/s] [内存消耗：1,725.50kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011007s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001080s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:46:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016932s] [吞吐率：59.06req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:49+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.037066s] [吞吐率：26.98req/s] [内存消耗：1,725.50kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011011s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001064s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:46:50+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018271s] [吞吐率：54.73req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:51+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.032861s] [吞吐率：30.43req/s] [内存消耗：1,725.50kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011111s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001088s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000379s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:46:52+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017950s] [吞吐率：55.71req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:46:52+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.031682s] [吞吐率：31.56req/s] [内存消耗：1,725.50kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010921s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.000492s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2019-12-03T09:46:53+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017564s] [吞吐率：56.94req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:47:51+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.015953s] [吞吐率：62.68req/s] [内存消耗：1,109.30kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T09:47:53+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.060041s] [吞吐率：16.66req/s] [内存消耗：1,725.56kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010904s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001996s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.026382s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2019-12-03T10:06:19+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018821s] [吞吐率：53.13req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:06:20+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016346s] [吞吐率：61.18req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:08:44+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017719s] [吞吐率：56.44req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:08:46+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.091361s] [吞吐率：10.95req/s] [内存消耗：1,725.90kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019341s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.024918s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.025731s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2019-12-03T10:08:47+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017394s] [吞吐率：57.49req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:30+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016475s] [吞吐率：60.70req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:33+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.087539s] [吞吐率：11.42req/s] [内存消耗：1,726.42kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '',
+  'name' => '王建伟',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011057s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and person_name='王建伟'; [ RunTime:0.029203s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and person_name='王建伟'; [ RunTime:0.025749s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where person_name='王建伟' and flag=1 order by leave_date desc; [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2019-12-03T10:09:34+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017751s] [吞吐率：56.33req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:35+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitpeople/index.html
+[运行时间：0.013993s] [吞吐率：71.46req/s] [内存消耗：854.01kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:39+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016512s] [吞吐率：60.56req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:41+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.047200s] [吞吐率：21.19req/s] [内存消耗：1,726.42kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '',
+  'name' => '王建伟',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011743s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and person_name='王建伟'; [ RunTime:0.007326s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and person_name='王建伟'; [ RunTime:0.001862s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where person_name='王建伟' and flag=1 order by leave_date desc; [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-12-03T10:09:42+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018467s] [吞吐率：54.15req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:09:43+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.014822s] [吞吐率：67.47req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:59:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.019263s] [吞吐率：51.91req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T10:59:44+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.071268s] [吞吐率：14.03req/s] [内存消耗：1,725.90kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018628s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001151s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.030354s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-03T10:59:45+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017498s] [吞吐率：57.15req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:22+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.019764s] [吞吐率：50.60req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:22+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016431s] [吞吐率：60.86req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:24+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.056545s] [吞吐率：17.69req/s] [内存消耗：1,725.90kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010133s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001077s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.022754s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-12-03T11:46:28+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018705s] [吞吐率：53.46req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016766s] [吞吐率：59.64req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.029282s] [吞吐率：34.15req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016780s] [吞吐率：59.59req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016896s] [吞吐率：59.19req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:46:56+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.034080s] [吞吐率：29.34req/s] [内存消耗：1,725.90kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011750s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.000523s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000477s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2019-12-03T11:47:03+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.020954s] [吞吐率：47.72req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:47:09+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.059952s] [吞吐率：16.68req/s] [内存消耗：1,726.42kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '56',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '',
+  'name' => '王建伟',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011152s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and person_name='王建伟'; [ RunTime:0.000492s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and person_name='王建伟'; [ RunTime:0.022712s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where person_name='王建伟' and flag=1 order by leave_date desc; [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2019-12-03T11:47:15+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.021099s] [吞吐率：47.40req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:47:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016686s] [吞吐率：59.93req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:47:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016931s] [吞吐率：59.06req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:47:21+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.016277s] [吞吐率：61.44req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:48:00+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018279s] [吞吐率：54.71req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:48:10+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.033159s] [吞吐率：30.16req/s] [内存消耗：1,724.94kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘888888',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011039s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘888888'; [ RunTime:0.000523s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘888888'; [ RunTime:0.000407s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘888888' and flag=1 order by leave_date desc; [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2019-12-03T11:48:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017204s] [吞吐率：58.13req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:48:17+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.017342s] [吞吐率：57.66req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:55:32+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.019050s] [吞吐率：52.49req/s] [内存消耗：1,109.24kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:55:34+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.024126s] [吞吐率：41.45req/s] [内存消耗：1,642.55kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:55:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.018510s] [吞吐率：54.03req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-03T11:55:38+08:00 ] 127.0.0.1 POST meeting.com/index.php/visit
+[运行时间：0.036543s] [吞吐率：27.37req/s] [内存消耗：1,725.90kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/visit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '41',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'carNumber' => '湘111',
+  'name' => '',
+  'visitNumber' => '',
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010521s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] update t_oa_visitor set flag = 2 WHERE UNIX_TIMESTAMP(leave_date)<1572710400 and flag!=2 and car_number='湘111'; [ RunTime:0.001637s ]
+[ sql ] [ SQL ] update t_oa_visitor set flag = 1 WHERE UNIX_TIMESTAMP(leave_date)>=1572710400 and flag!=1 and car_number='湘111'; [ RunTime:0.000408s ]
+[ sql ] [ SQL ] select come_date,leave_date from t_oa_visitor where car_number='湘111' and flag=1 order by leave_date desc; [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-12-03T11:55:40+08:00 ] 127.0.0.1 GET meeting.com/index.php/visit
+[运行时间：0.022655s] [吞吐率：44.14req/s] [内存消耗：1,108.79kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Visitpeople',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitpeople->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitpeople.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitpeople\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

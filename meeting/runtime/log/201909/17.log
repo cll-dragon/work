@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2019-09-17T09:54:49+08:00 ] 127.0.0.1 GET meeting.com/index.php/meeting
+[运行时间：0.035044s] [吞吐率：28.54req/s] [内存消耗：1,127.27kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.36 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\meeting\index.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File

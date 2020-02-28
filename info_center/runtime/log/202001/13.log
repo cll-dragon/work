@@ -1,0 +1,456 @@
+---------------------------------------------------------------
+[ 2020-01-13T08:55:18+08:00 ] 127.0.0.1 GET info.com/index.php/index
+[运行时间：0.203280s] [吞吐率：4.92req/s] [内存消耗：1,307.91kb] [文件加载：34]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T08:55:21+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.295611s] [吞吐率：3.38req/s] [内存消耗：2,315.30kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039867s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.080651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.018342s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2020-01-13T09:23:59+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.046370s] [吞吐率：21.57req/s] [内存消耗：2,314.77kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010544s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001959s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2020-01-13T09:24:13+08:00 ] 127.0.0.1 GET info.com/index.php/admin/login/index
+[运行时间：0.041561s] [吞吐率：24.06req/s] [内存消耗：1,039.91kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:18+08:00 ] 127.0.0.1 GET info.com/index.php/login
+[运行时间：0.018887s] [吞吐率：52.95req/s] [内存消耗：1,255.88kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:21+08:00 ] 127.0.0.1 POST info.com/index.php/login
+[运行时间：0.088768s] [吞吐率：11.27req/s] [内存消耗：2,456.22kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://info.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'pcl_admin',
+  'password' => 'pcl_admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011104s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_user` [ RunTime:0.032970s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_user` WHERE  `username` = 'pcl_admin'  AND `password` = 'pcl_admin' LIMIT 1 [ RunTime:0.008648s ]
+---------------------------------------------------------------
+[ 2020-01-13T09:24:21+08:00 ] 127.0.0.1 GET info.com/index.php/admin/index/index.html
+[运行时间：0.019452s] [吞吐率：51.41req/s] [内存消耗：1,273.61kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:21+08:00 ] 127.0.0.1 GET info.com/index.php/admin/index/menu.html
+[运行时间：0.028312s] [吞吐率：35.32req/s] [内存消耗：1,335.86kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:22+08:00 ] 127.0.0.1 GET info.com/index.php/admin/index/top.html
+[运行时间：0.021012s] [吞吐率：47.59req/s] [内存消耗：1,327.35kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:23+08:00 ] 127.0.0.1 GET info.com/index.php/admin/index/main.html
+[运行时间：0.024179s] [吞吐率：41.36req/s] [内存消耗：1,273.27kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:23+08:00 ] 127.0.0.1 GET info.com/index.php/admin/software/upload.html
+[运行时间：0.017717s] [吞吐率：56.44req/s] [内存消耗：1,269.63kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'software',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Software->upload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Software.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\software\upload.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:29+08:00 ] 127.0.0.1 GET info.com/index.php/admin/software/index.html
+[运行时间：0.043818s] [吞吐率：22.82req/s] [内存消耗：2,574.94kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'software',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Software->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\software\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010866s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` LIMIT 0,5 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2020-01-13T09:24:30+08:00 ] 127.0.0.1 GET info.com/index.php/admin/software/upload.html
+[运行时间：0.018142s] [吞吐率：55.12req/s] [内存消耗：1,269.63kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'software',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Software->upload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Software.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\software\upload.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-13T09:24:32+08:00 ] 127.0.0.1 GET info.com/index.php/admin/software/index.html
+[运行时间：0.043147s] [吞吐率：23.18req/s] [内存消耗：2,574.94kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'software',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Software->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\software\index.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011284s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` LIMIT 0,5 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2020-01-13T09:24:32+08:00 ] 127.0.0.1 GET info.com/index.php/admin/software/upload.html
+[运行时间：0.018040s] [吞吐率：55.43req/s] [内存消耗：1,269.63kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'software',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22pcl_admin%22%2C%22password%22%3A%22pcl_admin%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/admin/index/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Software->upload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\admin\controller\Software.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/admin\view\software\upload.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

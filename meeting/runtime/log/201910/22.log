@@ -1,0 +1,3626 @@
+---------------------------------------------------------------
+[ 2019-10-22T17:47:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.052075s] [吞吐率：19.20req/s] [内存消耗：991.34kb] [文件加载：31]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T17:53:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.131939s] [吞吐率：7.58req/s] [内存消耗：1,278.59kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043020s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:56:45+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.022177s] [吞吐率：45.09req/s] [内存消耗：1,651.97kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T17:57:20+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.035209s] [吞吐率：28.40req/s] [内存消耗：1,762.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010604s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:57:22+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.060547s] [吞吐率：16.52req/s] [内存消耗：1,762.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012377s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:57:23+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.038823s] [吞吐率：25.76req/s] [内存消耗：1,762.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011460s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:57:23+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.044502s] [吞吐率：22.47req/s] [内存消耗：1,762.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011303s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:57:23+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.037598s] [吞吐率：26.60req/s] [内存消耗：1,762.16kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011074s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:53+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.043042s] [吞吐率：23.23req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011059s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.034095s] [吞吐率：29.33req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011032s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.024896s] [吞吐率：40.17req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.024019s] [吞吐率：41.63req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.069608s] [吞吐率：14.37req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011383s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.036576s] [吞吐率：27.34req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010676s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.040794s] [吞吐率：24.51req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011292s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.035047s] [吞吐率：28.53req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011134s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.044734s] [吞吐率：22.35req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011177s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.089753s] [吞吐率：11.14req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011860s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.044662s] [吞吐率：22.39req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011028s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:58:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.040171s] [吞吐率：24.89req/s] [内存消耗：1,762.06kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010942s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'' at line 1[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:25+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.083768s] [吞吐率：11.94req/s] [内存消耗：1,712.23kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011282s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where come_date<='2019-10-22' and leave_date>='2019-10-22'; [ RunTime:0.038871s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.082129s] [吞吐率：12.18req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011027s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.032236s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:58+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.032188s] [吞吐率：31.07req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011104s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001100s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:58+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.050231s] [吞吐率：19.91req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010950s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001137s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:58+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.050058s] [吞吐率：19.98req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010965s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.006085s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:58+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.039610s] [吞吐率：25.25req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010995s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.006059s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.047014s] [吞吐率：21.27req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011104s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001175s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.047797s] [吞吐率：20.92req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011435s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.033729s] [吞吐率：29.65req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010909s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.045315s] [吞吐率：22.07req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011054s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2019-10-22T17:59:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.032240s] [吞吐率：31.02req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011392s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:00:00+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.042513s] [吞吐率：23.52req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010400s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.012091s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:00:00+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.040190s] [吞吐率：24.88req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011469s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:00:00+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.031774s] [吞吐率：31.47req/s] [内存消耗：1,712.55kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010573s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001179s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:00:06+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.037995s] [吞吐率：26.32req/s] [内存消耗：1,712.09kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011576s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001240s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:08:41+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.031235s] [吞吐率：32.02req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009016s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.001166s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:08:43+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.018953s] [吞吐率：52.76req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001365s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:08:43+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.042867s] [吞吐率：23.33req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011105s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:08:43+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.040203s] [吞吐率：24.87req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011132s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:08:44+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.044122s] [吞吐率：22.66req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011694s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:17+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.037124s] [吞吐率：26.94req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010825s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.045256s] [吞吐率：22.10req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011050s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.038632s] [吞吐率：25.89req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010712s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.029885s] [吞吐率：33.46req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010928s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.037078s] [吞吐率：26.97req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011402s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:18+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.030138s] [吞吐率：33.18req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011678s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:09:19+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.039423s] [吞吐率：25.37req/s] [内存消耗：1,285.79kb] [文件加载：36]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011581s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000540s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:10:08+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.048765s] [吞吐率：20.51req/s] [内存消耗：1,500.16kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'w1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011728s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000518s ]
+[ error ] [8]未定义变量: d[E:\phpStudy\PHPTutorial\WWW\work\meeting1\runtime\temp\d6a1244f4b4199694a13e66711171dfc.php:63]
+---------------------------------------------------------------
+[ 2019-10-22T18:10:27+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.037590s] [吞吐率：26.60req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011123s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.040849s] [吞吐率：24.48req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010539s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:15+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.032521s] [吞吐率：30.75req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010996s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:16+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.031803s] [吞吐率：31.44req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011292s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:16+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.046350s] [吞吐率：21.57req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011907s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:25+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.051985s] [吞吐率：19.24req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011003s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.038061s] [吞吐率：26.27req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011026s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:11:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.030319s] [吞吐率：32.98req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010772s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:12:15+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.034904s] [吞吐率：28.65req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001460s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:12:40+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.045370s] [吞吐率：22.04req/s] [内存消耗：1,406.91kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011228s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000540s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:37+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.035316s] [吞吐率：28.32req/s] [内存消耗：1,406.91kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010312s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.003021s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.033351s] [吞吐率：29.98req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011033s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.030202s] [吞吐率：33.11req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011073s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.053466s] [吞吐率：18.70req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011011s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.031576s] [吞吐率：31.67req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:38+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.036612s] [吞吐率：27.31req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011377s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:39+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.030673s] [吞吐率：32.60req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010750s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:14:39+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.026587s] [吞吐率：37.61req/s] [内存消耗：1,290.28kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001574s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:40:52+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.017482s] [吞吐率：57.20req/s] [内存消耗：957.78kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:24+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.023163s] [吞吐率：43.17req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015322s] [吞吐率：65.26req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.017342s] [吞吐率：57.66req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:27+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.029594s] [吞吐率：33.79req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:27+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.023998s] [吞吐率：41.67req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:57+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.019716s] [吞吐率：50.72req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:58+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.020399s] [吞吐率：49.02req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015474s] [吞吐率：64.62req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.024122s] [吞吐率：41.46req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:41:59+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.022846s] [吞吐率：43.77req/s] [内存消耗：958.23kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:42:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.044900s] [吞吐率：22.27req/s] [内存消耗：1,289.83kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010270s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-10-22T18:42:23+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015330s] [吞吐率：65.23req/s] [内存消耗：957.78kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:09+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.032956s] [吞吐率：30.34req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015395s] [吞吐率：64.96req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.029928s] [吞吐率：33.41req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.040956s] [吞吐率：24.42req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.027220s] [吞吐率：36.74req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.030412s] [吞吐率：32.88req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:11+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.036534s] [吞吐率：27.37req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:11+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.035470s] [吞吐率：28.19req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:12+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.034106s] [吞吐率：29.32req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:12+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.022684s] [吞吐率：44.08req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:12+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.024064s] [吞吐率：41.56req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:12+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.026266s] [吞吐率：38.07req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.028081s] [吞吐率：35.61req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.027704s] [吞吐率：36.10req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.024048s] [吞吐率：41.58req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015048s] [吞吐率：66.45req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.013995s] [吞吐率：71.45req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.020956s] [吞吐率：47.72req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.023064s] [吞吐率：43.36req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:44:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.015248s] [吞吐率：65.58req/s] [内存消耗：957.92kb] [文件加载：32]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:45:52+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.019799s] [吞吐率：50.51req/s] [内存消耗：1,208.63kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:45:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.016081s] [吞吐率：62.19req/s] [内存消耗：1,095.81kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:45:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.030264s] [吞吐率：33.04req/s] [内存消耗：1,095.81kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:45:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.016011s] [吞吐率：62.46req/s] [内存消耗：1,095.81kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:45:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.035337s] [吞吐率：28.30req/s] [内存消耗：1,095.81kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:46:45+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.023914s] [吞吐率：41.82req/s] [内存消耗：1,208.63kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:47:00+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.019162s] [吞吐率：52.19req/s] [内存消耗：1,208.63kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:52:01+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.028201s] [吞吐率：35.46req/s] [内存消耗：965.62kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Common' not found[E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php:9]
+---------------------------------------------------------------
+[ 2019-10-22T18:53:14+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index
+[运行时间：0.045975s] [吞吐率：21.75req/s] [内存消耗：1,279.39kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T18:53:17+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index.html
+[运行时间：0.015910s] [吞吐率：62.85req/s] [内存消耗：1,096.02kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/visitor/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:00:52+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index.html
+[运行时间：0.018483s] [吞吐率：54.10req/s] [内存消耗：1,097.72kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/visitor/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:00:53+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index.html
+[运行时间：0.015996s] [吞吐率：62.52req/s] [内存消耗：1,097.72kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/visitor/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:01:00+08:00 ] 127.0.0.1 POST meeting.com/index.php/index/login/index.html
+[运行时间：0.018062s] [吞吐率：55.37req/s] [内存消耗：1,130.33kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345678',
+  'act' => 'signin',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\TOaUserOne[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2019-10-22T19:02:33+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.032621s] [吞吐率：30.66req/s] [内存消耗：1,127.46kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\TOaUserOne[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2019-10-22T19:02:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.017410s] [吞吐率：57.44req/s] [内存消耗：1,127.91kb] [文件加载：35]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\TOaUserOne[E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2019-10-22T19:06:56+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.031994s] [吞吐率：31.26req/s] [内存消耗：1,860.91kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:09:26+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index
+[运行时间：0.018496s] [吞吐率：54.07req/s] [内存消耗：1,095.82kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:09:33+08:00 ] 127.0.0.1 POST meeting.com/index.php/index/login/index
+[运行时间：0.051939s] [吞吐率：19.25req/s] [内存消耗：2,051.69kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345678',
+  'act' => 'signin',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008908s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_oa_user_one` [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT * FROM `t_oa_user_one` WHERE  `username` = 'admin'  AND `password` = '12345678' LIMIT 1 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2019-10-22T19:09:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index.html
+[运行时间：0.023467s] [吞吐率：42.61req/s] [内存消耗：1,313.32kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2212345678%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/login/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2019-10-22T19:12:34+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index.html
+[运行时间：0.024987s] [吞吐率：40.02req/s] [内存消耗：1,164.59kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3824.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:12:37+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/login/index.html
+[运行时间：0.020812s] [吞吐率：48.05req/s] [内存消耗：1,095.93kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/visitor/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3824.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-10-22T19:12:54+08:00 ] 127.0.0.1 POST meeting.com/index.php/index/login/index.html
+[运行时间：0.046710s] [吞吐率：21.41req/s] [内存消耗：2,020.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3824.400',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '12345678',
+  'act' => 'signin',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011013s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_oa_user_one` [ RunTime:0.005060s ]
+[ sql ] [ SQL ] SELECT * FROM `t_oa_user_one` WHERE  `username` = 'admin'  AND `password` = '12345678' LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-10-22T19:12:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/visitor/index.html
+[运行时间：0.031826s] [吞吐率：31.42req/s] [内存消耗：1,313.52kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'visitor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'user_info=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22admin%22%2C%22password%22%3A%2212345678%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/index/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3824.400',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Visitor->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Visitor.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\visitor\index.html [ array (
+  0 => 'd',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011210s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select person_name,company,come_date,leave_date from t_oa_visitor where date_format(come_date,'%Y-%m-%d')<='2019-10-22' and date_format(leave_date,'%Y-%m-%d')>='2019-10-22'; [ RunTime:0.000548s ]

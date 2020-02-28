@@ -1,0 +1,1072 @@
+---------------------------------------------------------------
+[ 2020-01-21T10:05:14+08:00 ] 127.0.0.1 GET info.com/index.php/index/index/index
+[运行时间：0.039991s] [吞吐率：25.01req/s] [内存消耗：1,307.91kb] [文件加载：34]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-21T10:05:16+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.162443s] [吞吐率：6.16req/s] [内存消耗：2,315.62kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019574s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.087830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.024812s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:32+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.046863s] [吞吐率：21.34req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010210s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.003790s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:32+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.045034s] [吞吐率：22.21req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009700s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.040765s] [吞吐率：24.53req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009806s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.039903s] [吞吐率：25.06req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010522s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.038221s] [吞吐率：26.16req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009627s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.050699s] [吞吐率：19.72req/s] [内存消耗：2,316.18kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011119s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:39+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/shadutool/type_id/1.html
+[运行时间：0.041950s] [吞吐率：23.84req/s] [内存消耗：2,317.91kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'shadutool',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Software->shaduTool[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\shadu_tool.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010896s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 1 LIMIT 0,8 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:41+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/vpn/type_id/3.html
+[运行时间：0.047620s] [吞吐率：21.00req/s] [内存消耗：2,313.89kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'vpn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/shadutool/type_id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Software->vpn[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\vpn.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010348s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 3 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 3 LIMIT 0,8 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:05:44+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.045976s] [吞吐率：21.75req/s] [内存消耗：2,315.66kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/vpn/type_id/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011182s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:06:29+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/swdownload/id/10.html
+[运行时间：0.228811s] [吞吐率：4.37req/s] [内存消耗：30,704.38kb] [文件加载：37]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'swdownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '10',
+)
+[ info ] [ RUN ] app\index\controller\Software->swDownload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010756s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:09:08+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.038065s] [吞吐率：26.27req/s] [内存消耗：2,464.41kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/vpn/type_id/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001108s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001662s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:09:09+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.035475s] [吞吐率：28.19req/s] [内存消耗：2,315.73kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:25+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.050525s] [吞吐率：19.79req/s] [内存消耗：2,464.41kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011918s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.002045s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:25+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.049202s] [吞吐率：20.32req/s] [内存消耗：2,316.29kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011514s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.002967s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.005591s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:26+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.046400s] [吞吐率：21.55req/s] [内存消耗：2,316.29kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010763s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:26+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.045337s] [吞吐率：22.06req/s] [内存消耗：2,316.29kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011525s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:26+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.039627s] [吞吐率：25.24req/s] [内存消耗：2,316.29kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011213s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:29+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/shadutool/type_id/1.html
+[运行时间：0.046059s] [吞吐率：21.71req/s] [内存消耗：2,466.13kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'shadutool',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Software->shaduTool[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\shadu_tool.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011780s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 1 LIMIT 0,8 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:32+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/vpn/type_id/3.html
+[运行时间：0.048346s] [吞吐率：20.68req/s] [内存消耗：2,462.11kb] [文件加载：47]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'vpn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/shadutool/type_id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Software->vpn[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\vpn.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011403s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 3 LIMIT 1 [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 3 LIMIT 0,8 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.040603s] [吞吐率：24.63req/s] [内存消耗：2,315.73kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/vpn/type_id/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010670s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:33+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/shadutool/type_id/1.html
+[运行时间：0.047299s] [吞吐率：21.14req/s] [内存消耗：2,317.98kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'shadutool',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Software->shaduTool[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\shadu_tool.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011702s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 1 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 1 LIMIT 0,8 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:35+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.047295s] [吞吐率：21.14req/s] [内存消耗：2,315.73kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/shadutool/type_id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011187s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:13:37+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/vpn/type_id/3.html
+[运行时间：0.040637s] [吞吐率：24.61req/s] [内存消耗：2,313.95kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'vpn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '3',
+)
+[ info ] [ RUN ] app\index\controller\Software->vpn[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\vpn.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011219s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 3 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 3 LIMIT 0,8 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:17:02+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.050135s] [吞吐率：19.95req/s] [内存消耗：2,315.73kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/vpn/type_id/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010889s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:18:13+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/legalsoftware/type_id/2.html
+[运行时间：0.042387s] [吞吐率：23.59req/s] [内存消耗：2,317.02kb] [文件加载：45]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'legalsoftware',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/vpn/type_id/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Software->legalSoftware[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\info_center\public/../application/index\view\software\legal_software.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010978s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dl_software` WHERE  `type_id` = 2 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `id`,`filename`,`title`,`sw_path` FROM `dl_software` WHERE  `type_id` = 2 LIMIT 0,8 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2020-01-21T10:18:14+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/swdownload/id/19.html
+[运行时间：0.093238s] [吞吐率：10.73req/s] [内存消耗：2,160.26kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'swdownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://info.com/index.php/index/software/legalsoftware/type_id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\index\controller\Software->swDownload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011511s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000462s ]
+[ error ] [1]Allowed memory size of 134217728 bytes exhausted (tried to allocate 768098544 bytes)[E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php:67]
+---------------------------------------------------------------
+[ 2020-01-21T10:18:15+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/swdownload/id/19.html
+[运行时间：0.045001s] [吞吐率：22.22req/s] [内存消耗：2,159.87kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'swdownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\index\controller\Software->swDownload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000752s ]
+[ error ] [1]Allowed memory size of 134217728 bytes exhausted (tried to allocate 768098544 bytes)[E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php:67]
+---------------------------------------------------------------
+[ 2020-01-21T10:18:20+08:00 ] 127.0.0.1 GET info.com/index.php/index/software/swdownload/id/19.html
+[运行时间：0.040498s] [吞吐率：24.69req/s] [内存消耗：2,159.87kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\info_center\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'software',
+    2 => 'swdownload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'info.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ RUN ] app\index\controller\Software->swDownload[ E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010452s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dl_software` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `dl_software` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000442s ]
+[ error ] [1]Allowed memory size of 134217728 bytes exhausted (tried to allocate 768098544 bytes)[E:\phpStudy\PHPTutorial\WWW\work\info_center\application\index\controller\Software.php:67]

@@ -1,0 +1,90 @@
+---------------------------------------------------------------
+[ 2019-09-20T10:55:48+08:00 ] 127.0.0.1 GET meeting.com/
+[运行时间：0.019195s] [吞吐率：52.10req/s] [内存消耗：858.60kb] [文件加载：29]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T10:56:13+08:00 ] 127.0.0.1 GET meeting.com/index.php/meeting
+[运行时间：0.016808s] [吞吐率：59.50req/s] [内存消耗：1,127.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\meeting\index.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T10:56:39+08:00 ] 127.0.0.1 GET meeting.com/index.php/index/meeting/index
+[运行时间：0.011598s] [吞吐率：86.22req/s] [内存消耗：853.32kb] [文件加载：28]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-20T10:56:54+08:00 ] 127.0.0.1 GET meeting.com/index.php/meeting
+[运行时间：0.013066s] [吞吐率：76.53req/s] [内存消耗：1,127.26kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\meeting\index.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,133 @@
+---------------------------------------------------------------
+[ 2019-09-18T14:24:36+08:00 ] 127.0.0.1 GET meeting.com/index.php/meeting
+[运行时间：0.023504s] [吞吐率：42.55req/s] [内存消耗：1,127.27kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\meeting\index.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-18T14:24:40+08:00 ] 127.0.0.1 POST meeting.com/index.php/meeting
+[运行时间：0.096067s] [吞吐率：10.41req/s] [内存消耗：4,529.09kb] [文件加载：91]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/meeting',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '13',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'da' => '2019-09-12',
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013507s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select conference_name,conference_start_time,conference_end_time,conference_place,conference_host,conference_participants from t_pcl_oa_conference where date_format(conference_start_time,'%Y-%m-%d')<='2019-09-12' and date_format(conference_end_time,'%Y-%m-%d')>='2019-09-12' order by date_format(conference_start_time,'%H:%i:%s'); [ RunTime:0.002836s ]
+---------------------------------------------------------------
+[ 2019-09-18T14:28:10+08:00 ] 127.0.0.1 GET meeting.com/index.php/meeting
+[运行时间：0.026172s] [吞吐率：38.21req/s] [内存消耗：1,127.71kb] [文件加载：33]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ VIEW ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\public/../application/index\view\meeting\index.html [ array (
+  0 => 'date',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-09-18T14:28:15+08:00 ] 127.0.0.1 POST meeting.com/index.php/meeting
+[运行时间：0.137825s] [吞吐率：7.26req/s] [内存消耗：4,528.81kb] [文件加载：91]
+[ info ] [ LANG ] E:\phpStudy\PHPTutorial\WWW\work\meeting1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Meeting',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://meeting.com/index.php/meeting',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://meeting.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '13',
+  'connection' => 'close',
+  'host' => 'meeting.com',
+)
+[ info ] [ PARAM ] array (
+  'da' => '2019-09-12',
+)
+[ info ] [ RUN ] app\index\controller\Meeting->index[ E:\phpStudy\PHPTutorial\WWW\work\meeting1\application\index\controller\Meeting.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013234s ] mysql:host=127.0.0.1;port=3306;dbname=work;charset=utf8
+[ sql ] [ SQL ] select conference_name,conference_start_time,conference_end_time,conference_place,conference_host,conference_participants from t_pcl_oa_conference where date_format(conference_start_time,'%Y-%m-%d')<='2019-09-12' and date_format(conference_end_time,'%Y-%m-%d')>='2019-09-12' order by conference_place; [ RunTime:0.003838s ]
